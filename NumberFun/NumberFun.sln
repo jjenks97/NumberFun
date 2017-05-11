@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EB7B224C-6E08-42AA-9D4D-D8C9FBCE30FB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6D89DFA-D240-4062-88DF-A420B3FC88B9}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NumberFun", "src\NumberFun\NumberFun.xproj", "{18345FB9-E5C8-4E3B-AF95-2D8FA359C0F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberFun", "src\NumberFun\NumberFun.csproj", "{18345FB9-E5C8-4E3B-AF95-2D8FA359C0F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

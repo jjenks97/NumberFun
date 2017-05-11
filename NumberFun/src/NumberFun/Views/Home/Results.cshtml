@@ -8,84 +8,89 @@
 }
 
 
-<h2> Results </h2>
+<h2 class="center-align"> Results </h2>
 
-<h3> @Model.Num </h3>
+<h3 class="center-align"> @Model.Num </h3>
+<div class="center-align">
+    <table class="table center">
+        <tr class="tableItems">
+            <th>
+                Numeric Properties
+            </th>
+            <th>
 
-<table style="width: 25%">
-    <tr>
-        <th>
-            Numeric Properties
-        </th>
-        <th>
-
-        </th>
-    </tr>
-    <tr>
-        <td>
-            Prime
-        </td>
-        <td>
-            @if (Model.isPrime() == true)
-            {
-                <i class="material-icons">done</i>}
-            else
-            {<i class="material-icons">close</i>}
+            </th>
+        </tr>
+        <tr class="tableItems">
+            <td>
+                Prime
+            </td>
+            <td>
+                @if (Model.isPrime() == true)
+                {
+                    <i class="material-icons">done</i>}
+                else
+                {<i class="material-icons">close</i>}
             
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Perfect
-        </td>
-        <td>
-            @if (Model.isPerfect() == true)
-            {
-                <i class="material-icons">done</i>}
-            else
-            {<i class="material-icons">close</i>}
+            </td>
+        </tr>
+        <tr class="tableItems">
+            <td>
+                Perfect
+            </td>
+            <td>
+                @if (Model.isPerfect() == true)
+                {
+                    <i class="material-icons">done</i>}
+                else
+                {<i class="material-icons">close</i>}
 
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Squareful
-        </td>
-        <td>
-            @if (Model.isSquareful() == true)
-            {
-                <i class="material-icons">done</i>}
-            else
-            {<i class="material-icons">close</i>}
+            </td>
+        </tr>
+        <tr class="tableItems">
+            <td>
+                Squareful
+            </td>
+            <td>
+                @if (Model.isSquareful() == true)
+                {
+                    <i class="material-icons">done</i>}
+                else
+                {<i class="material-icons">close</i>}
 
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Powerful
-        </td>
-        <td>
-            @if (Model.isPowerful() == true)
-            {
-                <i class="material-icons">done</i>}
-            else
-            {<i class="material-icons">close</i>}
+            </td>
+        </tr>
+        <tr class="tableItems">
+            <td>
+                Powerful
+            </td>
+            <td>
+                @if (Model.isPowerful() == true)
+                {
+                    <i class="material-icons">done</i>}
+                else
+                {<i class="material-icons">close</i>}
 
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Palindrome
-        </td>
-        <td>
-            @if (Model.isPalindrome() == true)
-            {
-                <i class="material-icons">done</i>}
-            else
-            {<i class="material-icons">close</i>}
+            </td>
+        </tr>
+        <tr class="tableItems">
+            <td>
+                Palindrome
+            </td>
+            <td>
+                @if (Model.isPalindrome() == true)
+                {
+                    <i class="material-icons">done</i>}
+                else
+                {<i class="material-icons">close</i>}
 
-        </td>
-    </tr>
-</table>
-<a href="/home/index" class="btn waves-effect waves-light"> Enter Another Number </a>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="row">
 
+</div>
+<div class="center-align">
+    <a href="/home/index" class="btn waves-effect waves-light red"> Enter Another Number </a>
+</div>

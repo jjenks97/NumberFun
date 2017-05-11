@@ -1,0 +1,9 @@
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\NumberFun\NumberFun\src\NumberFun\bin\Debug\netcoreapp1.0\NumberFun.deps.json
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\NumberFun\NumberFun\src\NumberFun\bin\Debug\netcoreapp1.0\NumberFun.runtimeconfig.json
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\NumberFun\NumberFun\src\NumberFun\bin\Debug\netcoreapp1.0\NumberFun.runtimeconfig.dev.json
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\NumberFun\NumberFun\src\NumberFun\bin\Debug\netcoreapp1.0\NumberFun.dll
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\NumberFun\NumberFun\src\NumberFun\bin\Debug\netcoreapp1.0\NumberFun.pdb
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\NumberFun\NumberFun\src\NumberFun\obj\Debug\netcoreapp1.0\NumberFun.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\NumberFun\NumberFun\src\NumberFun\obj\Debug\netcoreapp1.0\NumberFun.AssemblyInfo.cs
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\NumberFun\NumberFun\src\NumberFun\obj\Debug\netcoreapp1.0\NumberFun.dll
+C:\Users\Jonathan\Documents\Visual Studio 2017\Projects\NumberFun\NumberFun\src\NumberFun\obj\Debug\netcoreapp1.0\NumberFun.pdb

@@ -1,17 +1,18 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }   
+<div class="numFunMain">
+    <h2 class="center-align"> Enter a Number</h2>
 
-<h2> Enter a Number</h2>
+    <form asp-action="results" >
+        <div class="input-field center-align" style="text-align: center">
+            <label for="number">Number</label>
+            <input class="inputNumber" type="text" id="number" name="number" />
+        </div>
 
-<form asp-action="results" >
-    <div class="input-field">
-        <label for="number">Number</label>
-        <input type="text" id="number" name="number" />
-    </div>
-
-
-    <button type="submit" class="btn waves-light blue"> Analyze </button>
-
-</form>
+        <div class="center-align">
+            <button type="submit" class="btn waves-light red"> Analyze </button>
+        </div>
+    </form>
+</div>
 

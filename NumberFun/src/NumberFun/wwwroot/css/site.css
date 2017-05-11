@@ -7,3 +7,24 @@
   main {
     flex: 1 0 auto;
   }
+  .numFunMain{
+      padding: 10px;
+  }
+.table {
+    border: 1px solid;
+    width: 25%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 25px;
+}
+.tableItems{
+      border : 1px solid;
+}
+
+input[type ="text"] {
+    width: 20%;
+    text-align: center;
+}
+label {
+   width:100%;
+}
